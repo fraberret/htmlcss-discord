@@ -11,18 +11,15 @@
 }
 /* #region header */
 #site_header{
-    height: 80px;
-    background-color: aquamarine;
+    background-color: var(--discord-primary);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 200px;
+    padding: 20px 200px;
 }
 
 #header_contenitor{
     width: 100%;
-    height: 40px;
-    background-color: rgb(217, 111, 18);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,15 +36,23 @@
 }
 
 .link{
-    padding: 0px 5px;
+    padding: 0px 15px;
+    color: var(--discord-light);
 }
+
+.button{
+    padding: 0.6rem;
+    border-radius: 20px;
+}
+
 
 /* #endregion header */
 
 /* #region main */
 #banner_section{
-    height: 400px;
-    background-color: rgb(0, 0, 102);
+    
+    background-image:url(/assets/img/jumbo.png);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,9 +60,8 @@
 
 
 #banner{
-    width: 700px;
-    height: 350px;
-    background-color: palevioletred;
+    color: white;
+    
 }
 
 
@@ -85,7 +89,7 @@
 }
 
 .grey_section{
-    background-color: gray;
+    background-color: var(--discord-light);
 }
 
 .big_section{
@@ -106,7 +110,7 @@
 
 /* #region footer */
 #big_footer{
-    background-color: rgb(38, 36, 36);
+    background-color:var(--discord-dark);
     height: 400px;
     display: flex;
     justify-content: center;
@@ -128,7 +132,7 @@
 
 #footer_bar{
     height: 80px;
-    background-color: rgb(38, 36, 36);
+    background-color: var(--discord-dark) ;
     display: flex;
     justify-content: center;
     align-items: flex-end;
