@@ -15,11 +15,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 200px;
+    padding: 30px ;
+    padding-bottom: 0;
+    
+    
 }
 
 #header_contenitor{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +29,13 @@
 
 }
 
-
+.container {
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 #menu{
    
@@ -61,23 +69,21 @@
 
 /* #region main */
 #banner_section{
-    
+    height: 50vh;
     background-image:url(/assets/img/jumbo.png);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 450px;
     
 }
 
 
 #banner{
     color: white;
-    text-align: center;
-    margin: 6% 25%;
-    
-
-    
+    text-align: center; 
+    width: 50%;   
 }
 
 
@@ -97,26 +103,24 @@
     height: 450px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 0px 200px;
 }
 
-.contents{
-    
-    height: 400px;
-}
+
 
 .pink{
-    background-color: pink;
-    width: 35%;
+    
+    width: 30%;
 }
-.blue{
-    background-color: rgb(0, 132, 255);
-    width: 65%;
+
+.title_contents{
+    padding-bottom:15px ;
+    font-size: 40px;
 }
 
 .grey_section{
-    background-color: var(--discord-light);
+    background-image: url(../img/wave.svg);
+    
+    
 }
 
 .big_section{
@@ -124,7 +128,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 200px;
 }
 
 #green_content{
@@ -142,7 +145,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 200px;
 }   
 .footer_section{
     background-color: rgb(31, 132, 162);
@@ -163,7 +165,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding: 0px 200px;
     border-top:  2px solid white;
     border-bottom:  2px solid white;
 }
