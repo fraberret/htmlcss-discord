@@ -1,5 +1,5 @@
 :root{
-    --discord-primary: rgba(48,87,225,1);
+    --discord-primary: #255EE8;
     --discord-dark: rgba(34, 39, 43,1);
     --discord-light:rgba(246,246,246,1);
 }
@@ -38,13 +38,24 @@
 .link{
     padding: 0px 15px;
     color: var(--discord-light);
+    
 }
 
 .button{
-    padding: 0.6rem;
+    padding: 0.8rem 0.9rem;
     border-radius: 20px;
+    border: none;
+    text-align: center;
 }
 
+.button_section{
+    padding: 10px;
+}
+
+#discord{
+    background-color: var(--discord-dark);
+    color: white;
+}
 
 /* #endregion header */
 
@@ -56,15 +67,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
 #banner{
     color: white;
+    text-align: center;
+    margin: 6% 25%;
+    
+
     
 }
 
 
+.title_banner{
+    
+    padding-bottom:40px;
+    font-size: 48px;
+}
+
+.banner_contents{
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 1.645;
+}
 
 .central_section{
     height: 450px;
