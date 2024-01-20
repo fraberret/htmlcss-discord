@@ -140,6 +140,7 @@
 .biggest_section{
     text-align: center;
     background-color: var(--discord-light);
+    padding-bottom: 50px;
     
 
 }
@@ -152,9 +153,11 @@
 
 h2{
     padding-bottom: 30px;
+    background-image: url(/assets/img/stars.svg);
+    
 }
 
-#button_big_section{
+.button_big_section{
 
     background-color: var(--discord-primary);
     color: white;
@@ -170,44 +173,33 @@ h2{
 
 
 /* #region footer */
-#big_footer{
-    background-color:var(--discord-dark);
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}   
-
-
-
-#red{
-    width: 40%;
-    background-color: red;
+footer{
+    background-color: red
 }
 
-
-#footer_bar{
-    height: 80px;
-    background-color: var(--discord-dark) ;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    border-top:  2px solid white;
-    border-bottom:  2px solid white;
-}
-#footer_contenitor{
-    height: 60px;
-    background-color: aquamarine;
-    width: 100%;
+.footer_contenitor{
+    width: 70%;
+    padding-top: 50px;
+    padding-bottom:50px ;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
 
-.footer_button{
-    width: 60px;
-    height: 20px;
-    background-color: orange;
-    text-align: center;
+.footer_content{
+
 }
+
+.footer_banner{
+    border-top: 2px solid;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom:50px ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
 /* #endregion footer */
