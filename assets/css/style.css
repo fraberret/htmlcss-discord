@@ -60,7 +60,7 @@
     padding: 10px;
 }
 
-#discord{
+.discord{
     background-color: var(--discord-dark);
     color: white;
 }
@@ -100,12 +100,26 @@
 }
 
 .central_section{
-    height: 450px;
+    
     display: flex;
     justify-content: center;
+    align-content: center;
+   
 }
 
+.wave_rev{
+    width: 100%;
+    transform: scaleY(-1);
 
+}
+
+.wave{
+    width: 100%;
+    
+   
+
+    
+}
 
 .pink{
     
@@ -118,17 +132,34 @@
 }
 
 .grey_section{
-    background-image: url(../img/wave.svg);
     
-    
+  background-color: var(--discord-light)
+      
 }
 
-.big_section{
-    height: 900px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.biggest_section{
+    text-align: center;
+    background-color: var(--discord-light);
+    
+
 }
+
+.big_section_container{
+    width: 65%;
+    margin: 0px auto;
+
+}
+
+h2{
+    padding-bottom: 30px;
+}
+
+#button_big_section{
+
+    background-color: var(--discord-primary);
+    color: white;
+}
+
 
 #green_content{
     background-color: green;
@@ -146,18 +177,14 @@
     justify-content: center;
     align-items: center;
 }   
-.footer_section{
-    background-color: rgb(31, 132, 162);
-    width: 15%;
-    height: 370px;
-    border: 2px dotted white;
-}
+
 
 
 #red{
     width: 40%;
     background-color: red;
 }
+
 
 #footer_bar{
     height: 80px;
