@@ -1,3 +1,24 @@
+.fa-instagram {  
+    width: 100px;
+    color: white;  
+    text-decoration: none;
+  }  
+
+  .fa-twitter {  
+    text-decoration: none;
+    color: white;  
+  }  
+
+  .fa-youtube {  
+    text-decoration: none;
+    color: white;  
+  }  
+
+  .fa-facebook {  
+    text-decoration: none; 
+    color: white;  
+  }  
+
 :root{
     --discord-primary: #255EE8;
     --discord-dark: rgba(34, 39, 43,1);
@@ -148,12 +169,23 @@
 .big_section_container{
     width: 65%;
     margin: 0px auto;
+    
 
 }
 
-h2{
+.container_stars{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.stars{
     padding-bottom: 30px;
     background-image: url(/assets/img/stars.svg);
+    background-size:auto;
+    text-align: center;
+    width: 40%;
     
 }
 
@@ -174,7 +206,7 @@ h2{
 
 /* #region footer */
 footer{
-    background-color: red
+    background-color: var(--discord-dark)
 }
 
 .footer_contenitor{
@@ -188,6 +220,7 @@ footer{
 }
 
 .footer_content{
+    width:  250px;
 
 }
 
@@ -202,4 +235,27 @@ footer{
 
 }
 
+.footer_title{
+    color: var(--discord-primary);
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.footer_title_small{
+    color: var(--discord-primary);
+    
+}
+
+.social_logos{
+    width: 20px;
+    color: white;
+}
+
+a{
+    padding: 10px;
+}
+
+.footer_white{
+    color: white;
+}
 /* #endregion footer */
