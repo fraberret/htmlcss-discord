@@ -140,6 +140,9 @@
         
 }
 
+.width{
+    width: 30%;
+}
 
 
 .title_contents{
@@ -253,4 +256,9 @@ a{
 .footer_white{
     color: white;
 }
+
+.padding{
+    padding-bottom: 5px;
+}
+
 /* #endregion footer */
