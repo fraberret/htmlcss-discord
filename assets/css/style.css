@@ -29,7 +29,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    font-family: 'Roboto', sans-serif;}
 /* #region header */
 #site_header{
     background-color: var(--discord-primary);
@@ -75,11 +75,10 @@
     border-radius: 20px;
     border: none;
     text-align: center;
+    margin: 10px;
 }
 
-.button_section{
-    padding: 10px;
-}
+
 
 .discord{
     background-color: var(--discord-dark);
@@ -90,7 +89,7 @@
 
 /* #region main */
 #banner_section{
-    height: 50vh;
+    
     background-image:url(/assets/img/jumbo.png);
     background-size: cover;
     display: flex;
@@ -131,21 +130,17 @@
 .wave_rev{
     width: 100%;
     transform: scaleY(-1);
+    display: block;
 
 }
 
 .wave{
     width: 100%;
-    
-   
-
-    
+    display: block;
+        
 }
 
-.pink{
-    
-    width: 30%;
-}
+
 
 .title_contents{
     padding-bottom:15px ;
@@ -225,7 +220,7 @@ footer{
 }
 
 .footer_banner{
-    border-top: 2px solid;
+    border-top: 2px solid var(--discord-light);
     width: 70%;
     padding-top: 20px;
     padding-bottom:50px ;
